@@ -1,0 +1,29 @@
+#slider div{
+    height: 350px
+}
+#slider .slider_title {
+    background-color: #eee;
+    width: 250px;
+    height:350px;
+    padding: 0;
+    margin: 0px;
+    display: inline-block;
+    float:left;
+}
+#slider .slider_card {
+    background-color: #eee;
+    width: 250px;
+    height:350px;
+    padding: 0;
+    margin: 0px;
+    display: inline-block;
+}
+
+#slider{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.desc{
+  white-space: normal;
+}
