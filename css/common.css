@@ -12,6 +12,8 @@ body{
 ul#menu {
   list-style-type: none;
   margin: 0;
+  margin-top: 30px;
+  margin-bottom: 22px;
   padding: 0;
   overflow: hidden;
   background-color: #FFF;
@@ -23,8 +25,8 @@ ul#menu {
 #menu li a {
   display: block;
   text-align: center;
-  padding-top: 86px;
-  padding-bottom: 86px;
+  padding-top: 26px;
+  padding-bottom: 22px;
   padding-left: 7.5vw;
   padding-right: 7.5vw;
   font-family: Poppins;
@@ -40,7 +42,8 @@ ul#menu {
 #menu li #logo{
   width: 175px;
   height: 74px;
-  padding: 60px 71px 60px 60px;
+  margin-left: 60px;
+  margin-right: 71px;
 }
 
 #menu li a.current {
@@ -48,10 +51,15 @@ ul#menu {
   text-decoration: line-through;
 }
 
+div.content{
+  height:754px;
+  padding-left: 60px;
+}
 
 div.retmus {
-  margin-top : 5px;
+  margin-top : 63px;
   margin-left: 50px;
+  margin-bottom: 31px;
   font-family: SpoqaHanSans;
   font-size: 13px;
   font-weight: normal;
