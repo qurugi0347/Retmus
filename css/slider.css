@@ -1,25 +1,26 @@
-#slider div{
+.slider div{
     height: 350px
 }
-#slider .slider_title {
-    background-color: #eee;
+.slider .slider_title {
+    background-color: #fff;
     width: 250px;
     height:350px;
     padding: 0;
     margin: 0px;
     display: inline-block;
-    float:left;
+    vertical-align:top;
 }
-#slider .slider_card {
-    background-color: #eee;
+.slider .slider_card {
+    background-color: #fff;
     width: 250px;
     height:350px;
     padding: 0;
     margin: 0px;
     display: inline-block;
+    vertical-align:top;
 }
 
-#slider{
+.slider{
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
