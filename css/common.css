@@ -47,3 +47,18 @@ ul#menu {
   color: #555555;
   text-decoration: line-through;
 }
+
+
+div.retmus {
+  margin-top : 5px;
+  margin-left: 50px;
+  font-family: SpoqaHanSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #aaaaaa;
+}

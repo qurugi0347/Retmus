@@ -2,19 +2,17 @@
     height: 350px
 }
 .slider .slider_title {
-    background-color: #fff;
-    width: 250px;
-    height:350px;
-    padding: 0;
+    background-color: #ffffff;
+    width: 464px;
+    height: 591px;
     margin: 0px;
     display: inline-block;
     vertical-align:top;
 }
 .slider .slider_card {
-    background-color: #fff;
-    width: 250px;
-    height:350px;
-    padding: 0;
+    background-color: #ffffff;
+    width: 404px;
+    height: 591px;
     margin: 0px;
     display: inline-block;
     vertical-align:top;

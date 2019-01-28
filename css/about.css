@@ -1,7 +1,7 @@
 div .name_ko{
   position: relative;
   font-family: SpoqaHanSans;
-  font-size: 15px;
+  font-size: 30px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -14,7 +14,7 @@ div .name_ko{
 div .name_en{
   position: relative;
   font-family: SpoqaHanSans;
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -27,7 +27,7 @@ div .name_en{
 div .position{
   position: relative;
   font-family: SpoqaHanSans;
-  font-size: 6.5px;
+  font-size: 13px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -40,7 +40,7 @@ div .position{
 div .desc{
   position: relative;
   font-family: SpoqaHanSans;
-  font-size: 6.5px;
+  font-size: 13px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -48,4 +48,40 @@ div .desc{
   letter-spacing: normal;
   text-align: left;
   color: #777777;
+}
+
+.slider .content_profile{
+  font-family: SpoqaHanSans;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #555555;
+}
+
+.slider .content_about {
+  font-family: SpoqaHanSans;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+.slider_card{
+  padding: 50px;
+}
+
+.slider .title_content {
+    margin-left: 60px;
+}
+
+.slider .empty {
+    height: 200px;
 }
