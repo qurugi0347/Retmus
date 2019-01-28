@@ -1,24 +1,24 @@
-#slider div{
+.slider div{
     height: 350px
 }
-#slider .slider_title {
-    background-color: #fafafa;
-    width: 250px;
-    height:350px;
-    padding: 0;
-    margin: 0px;
-    float: left;
-}
-#slider .slider_card {
-    background-color: #fafafa;
-    width: 250px;
-    height:350px;
-    padding: 0;
+.slider .slider_title {
+    background-color: #ffffff;
+    width: 464px;
+    height: 591px;
     margin: 0px;
     display: inline-block;
+    vertical-align:top;
+}
+.slider .slider_card {
+    background-color: #ffffff;
+    width: 404px;
+    height: 591px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align:top;
 }
 
-#slider{
+.slider{
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;

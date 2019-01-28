@@ -3,25 +3,74 @@
   <head>
     <meta charset="utf-8">
     <title>RE:TMUS ARCHITECTS</title>
+    <link rel="stylesheet" type="text/css" href="css/works.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/slider.css">
-    <meta name="viewport" content="width=960px, user-scalable=no">
+    <script type="text/javascript" src="js/works.js"></script>
+    <meta name="viewport" content="width=1920px, user-scalable=no">
   </head>
   <body>
     <ul id="menu">
-      <li><a id="logo">Logo</a></li>
-      <li><a href="./works.html">WORKS</a></li>
+      <li><img src="./img/logo.png" id="logo"></img></li>
+      <li><a href="./works.html" class="current">WORKS</a></li>
       <li><a href="./about.html">ABOUT</a></li>
-      <li><a href="./contact.html" class="current">CONTACT</a></li>
+      <li><a href="./contact.html">CONTACT</a></li>
     </ul>
 
-    <div id="slider">
-      <div class="slider_card">
+    <div id="list_slider" class="slider">
+      <div class="slider_card preimg" onclick="showDetail(this)">
+        <img src="./img/1.png" class="preview"></img>
+        <div class="detail slider_card detail_title hidden">
+          <span class="detail_title_ko">아라동<br/>휘게테라스</span><br/><br/>
+          <span class="detail_title_en">Ara-dong<br/>Hygge terrace</span>
+        </div>
+        <div class="detail slider_card description hidden">
+          <span class="desc_title">
+            편안하고 따뜻한 쉼터
+          </span>
+          <br/><br/>
+          <span class="desc_en">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </span>
+          <br/><br/><br/>
+          <span class="desc_info">
+            설계 및 감리: 리트머스 건축사무소<br/>
+            위치: 제주시 아라동<br/>
+            지역/지구: 제1종 전용주거지역, 제1종 지구단위계획구역<br/>
+            대지면적: 223.80 ㎡<br/>
+            건축면적: 110.48 ㎡<br/>
+            연면적: 199.27 ㎡<br/>
+            건폐율: 49.54 %<br/>
+            용적률: 89.04 %<br/>
+            규모: 지상 2층<br/>
+            구조: 철근콘크리트조<br/>
+            설계기간: 2017. 06 ~ 2018. 02<br/>
+            공사기간: 2018. 03 ~<br/>
+            사진: 홍길동<br/>
+            모형: 홍길동<br/>
+          </span>
+        </div>
+        <div class="detail slider_card detail_image hidden">
+          <img src="./img/1.png" class="preview"></img>
+        </div>
       </div>
-      <div class="slider_card">
+
+
+      <div class="slider_card preimg" onclick="showDetail(this)">
+        <img src="./img/2.png" class="preview"></img>
       </div>
-      <div class="slider_card">
+
+
+      <div class="slider_card preimg" onclick="showDetail(this)">
+        <img src="./img/1.png" class="preview"></img>
       </div>
+
+    </div>
+
+    <div id="detail_slider" class="slider">
+
+
+
     </div>
 
   </body>
