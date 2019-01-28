@@ -16,7 +16,6 @@
   margin-left: 40px;
   font-family: SpoqaHanSans;
   font-size: 7px;
-  font-weight: 300;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -39,15 +38,32 @@
   color: #222222;
   float: left;
 }
-#slider .slider_card {
-    float:left;
-}
 
+#slider .slider_title {
+  background-color: white;
+  margin-left: 60px;
+  font-size: 18px;
+}
+#slider .slider_title .main {
+  font-family: SpoqaHanSans;
+  font-weight: bold;
+  color: #555555;
+  line-height: 1.19;
+}
+#slider .slider_title .sub {
+  font-family: SpoqaHanSans;
+  font-weight: normal;
+  color: #aaaaaa;
+  line-height: 2.19;
+}
+#slider .slider_card {
+  float: left;
+}
 #slider .slider_map {
-    background-color: #fafafa;
-    width: 408px;
-    height: 350px;
-    padding: 0;
-    margin: 0px;
-    display: inline-block;
+  background-color: #fafafa;
+  width: 408px;
+  height: 350px;
+  padding: 0;
+  margin: 0px;
+  display: inline-block;
 }
