@@ -18,9 +18,8 @@
 
     <div class="slider">
       <div class="slider_title">
-        <span>연락처 및</span>
-        <span>오시는 길.-</span>
-        <span>contact us</span>
+        <span class="main">연락처 및<br>오시는 길.-</span><br>
+        <span class="sub">contact us</span>
       </div>
       <div class="slider_card">
         <h6 class="info_t">Contact us</h6><br/>
@@ -50,3 +49,13 @@
 
   </body>
 </html>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<script>
+  function myMap() {
+    var mapProp = {
+      center:new google.maps.LatLng(51.508742,-0.120850),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("slider_map"),mapProp);
+  }
+</script>
