@@ -23,6 +23,7 @@ ul#menu {
 }
 
 #menu li a {
+  margin-top:26px;
   display: block;
   text-align: center;
   padding-top: 26px;
