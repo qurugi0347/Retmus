@@ -1,6 +1,5 @@
 .info_t{
-  margin-left: 80px;
-  margin-top: 173px;
+  margin-left: 50px;
   margin-bottom: 17px;
   font-family: SpoqaHanSans;
   font-size: 24px;
@@ -13,7 +12,7 @@
   color: #555555;
 }
 .info{
-  margin-left: 80px;
+  margin-left: 50px;
   font-family: SpoqaHanSans;
   font-size: 14px;
   font-weight: bold;
@@ -67,14 +66,11 @@
   text-align: left;
   color: #aaaaaa;
 }
-.slider .slider_card {
-  vertical-align: top;
-}
 .slider .slider_map {
   background-color: #fafafa;
-  width: 408px;
+  width: 96vw;
   height: 350px;
   padding: 0;
-  margin: 0px;
+  margin-left: 2vw;
   display: inline-block;
 }

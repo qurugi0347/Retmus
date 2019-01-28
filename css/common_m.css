@@ -10,25 +10,28 @@ body{
 }
 
 ul#menu {
+  position: fixed;
   list-style-type: none;
-  margin: 0;
-  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
   margin-bottom: 22px;
   padding: 0;
   overflow: hidden;
   background-color: #FFF;
+  width:100vw;
+  z-index: 100;
 }
 #menu li {
   float: left;
 }
 
 #menu li a {
+  width: 33.3vw;
   display: block;
   text-align: center;
   padding-top: 26px;
   padding-bottom: 22px;
-  padding-left: 7.5vw;
-  padding-right: 7.5vw;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
@@ -39,24 +42,22 @@ ul#menu {
   color: #aaaaaa;
   text-decoration: none;
 }
-#logo{
+#menu #logo{
   width: 175px;
   height: 74px;
-  margin-left: 60px;
-  margin-right: 71px;
-  margin-top: 26px;
-  margin-bottom: 22px;
-  float:left;
+  margin-top: 30px;
+  float:inherit;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #menu li a.current {
   color: #555555;
   text-decoration: line-through;
 }
-
 div.content{
-  height:754px;
-  padding-left: 60px;
+  padding-top:166px;
 }
 
 div.retmus {

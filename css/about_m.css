@@ -1,51 +1,56 @@
-.info_t{
-  margin-left: 80px;
-  margin-top: 173px;
-  margin-bottom: 17px;
+div .name_ko{
+  position: relative;
   font-family: SpoqaHanSans;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.21;
+  line-height: 2.4;
   letter-spacing: normal;
   text-align: left;
   color: #555555;
 }
-.info{
-  margin-left: 80px;
+
+div .name_en{
+  position: relative;
   font-family: SpoqaHanSans;
-  font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.14;
-  letter-spacing: normal;
-  text-align: left;
-  color: #555555;
-  float: left;
-}
-.info2{
-  margin-left: 22px;
-  font-family: SpoqaHanSans;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 2.14;
+  line-height: 2.4;
   letter-spacing: normal;
   text-align: left;
-  color: #222222;
-  float: left;
+  color: #777777;
 }
 
-.slider .slider_title {
-  background-color: white;
-  margin-left: 60px;
-  font-size: 18px;
-  vertical-align: top;
+div .position{
+  position: relative;
+  font-family: SpoqaHanSans;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #777777;
 }
-.slider .slider_title .main {
+
+div .desc{
+  position: relative;
+  font-family: SpoqaHanSans;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #777777;
+}
+
+.slider .content_profile{
   font-family: SpoqaHanSans;
   font-size: 36px;
   font-weight: bold;
@@ -56,7 +61,8 @@
   text-align: left;
   color: #555555;
 }
-.slider .slider_title .sub {
+
+.slider .content_about {
   font-family: SpoqaHanSans;
   font-size: 36px;
   font-weight: normal;
@@ -67,14 +73,10 @@
   text-align: left;
   color: #aaaaaa;
 }
-.slider .slider_card {
-  vertical-align: top;
+
+.slider_card{
+  padding: 50px;
 }
-.slider .slider_map {
-  background-color: #fafafa;
-  width: 408px;
-  height: 350px;
-  padding: 0;
-  margin: 0px;
-  display: inline-block;
+
+.slider .title_content {
 }
