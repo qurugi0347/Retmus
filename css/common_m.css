@@ -1,6 +1,16 @@
 body{
   margin: 0px;
 }
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+}
+.hidden_m{
+  visibility: hidden;
+  display: none;
+}
 .hidden{
   visibility: hidden;
   float:none;
@@ -15,7 +25,7 @@ ul#menu {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  margin-bottom: 22px;
+  margin-bottom: 3vw;
   padding: 0;
   overflow: hidden;
   background-color: #FFF;
@@ -30,8 +40,8 @@ ul#menu {
   width: 33.3vw;
   display: block;
   text-align: center;
-  padding-top: 26px;
-  padding-bottom: 22px;
+  padding-top: 3.5vw;
+  padding-bottom: 2.9vw;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
@@ -42,13 +52,17 @@ ul#menu {
   color: #aaaaaa;
   text-decoration: none;
 }
+#menu div{
+  width:100vw;
+  padding-top: 2.8vw;
+  padding-bottom: 2.8vw;
+  padding-left: 6vw;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
 #menu #logo{
-  width: 175px;
-  height: 74px;
-  margin-top: 30px;
+  width: 20.4vw;
   float:inherit;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 
@@ -57,13 +71,15 @@ ul#menu {
   text-decoration: line-through;
 }
 div.content{
-  padding-top:166px;
+  padding-top:25.43vw;
 }
 
 div.retmus {
-  margin-top : 63px;
-  margin-left: 50px;
-  margin-bottom: 31px;
+  width: 93.25vw;
+  box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.16);
+  padding-top:2.7vw;
+  padding-bottom: 2.7vw;
+  padding-left:6.75vw;
   font-family: SpoqaHanSans;
   font-size: 13px;
   font-weight: normal;

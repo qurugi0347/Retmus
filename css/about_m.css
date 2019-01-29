@@ -11,6 +11,11 @@ div .name_ko{
   color: #555555;
 }
 
+hr{
+  margin-left:6.75vw;
+  margin-right:6.75vw;
+}
+
 div .name_en{
   position: relative;
   font-family: SpoqaHanSans;
@@ -75,7 +80,7 @@ div .desc{
 }
 
 .slider_card{
-  padding: 50px;
+  padding: 6.75vw;
 }
 
 .slider .title_content {

@@ -10,6 +10,7 @@ var showDetail= function(obj){
   }
   detail_slider.classList.remove("hidden");
   list_slider.classList.add("hidden");
+  document.getElementById("back").classList.remove("hidden");
 }
 
 var closeDetail = function(){
@@ -23,6 +24,7 @@ var closeDetail = function(){
   detail_slider.classList.add("hidden");
   list_slider.classList.remove("hidden");
   obj.classList.remove("active");
+  document.getElementById("back").classList.add("hidden");
 }
 
 //$('#slider')

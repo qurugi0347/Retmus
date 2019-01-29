@@ -1,6 +1,10 @@
 body{
   margin: 0px;
 }
+hr{
+  visibility: hidden;
+  display: none;
+}
 .hidden{
   visibility: hidden;
   float:none;

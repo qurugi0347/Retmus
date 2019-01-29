@@ -14,13 +14,17 @@
   </head>
   <body>
     <ul id="menu">
-      <img src="./img/logo.png" id="logo"></img>
+      <div><img src="./img/logo.png" id="logo"></img></div>
       <li><a href="./index.html" class="current">WORKS</a></li>
       <li><a href="./about.html">ABOUT</a></li>
       <li><a href="./contact.html">CONTACT</a></li>
     </ul>
 
     <div class="content">
+      <span id="back" class="hidden" onclick="closeDetail()">
+        <span class="css-cancel"></span>
+      </span>
+
       <div id="list_slider" class="slider">
         <div class="slider_card preimg" onclick="showDetail(this)">
           <img src="./img/1.png" class="preview"></img>
@@ -36,7 +40,7 @@
             <span class="desc_en">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </span>
-            <br/><br/><br/>
+            <br/><hr/><br/>
             <span class="desc_info">
               설계 및 감리: 리트머스 건축사무소<br/>
               위치: 제주시 아라동<br/>
@@ -74,7 +78,7 @@
             <span class="desc_en">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </span>
-            <br/><br/><br/>
+            <br/><hr/><br/>
             <span class="desc_info">
               설계 및 감리: 리트머스 건축사무소<br/>
               위치: 제주시 아라동<br/>
@@ -112,7 +116,7 @@
             <span class="desc_en">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </span>
-            <br/><br/><br/>
+            <br/><hr/><br/>
             <span class="desc_info">
               설계 및 감리: 리트머스 건축사무소<br/>
               위치: 제주시 아라동<br/>
@@ -137,7 +141,7 @@
 
       </div>
 
-      <div id="detail_slider" class="slider" onclick="closeDetail()">
+      <div id="detail_slider" class="slider" onclick="">
 
       </div>
 

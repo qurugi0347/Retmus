@@ -1,12 +1,42 @@
 img{
   width: 100vw;
 }
+#back{
+  margin:0;
+  padding:0;
+  transition: all .3s ease-out;
+  cursor:pointer;
+  width:30px;
+  height: 30px;
+  position:fixed;
+  right:0px;
+}
+.css-cancel {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px 0 7px;
+    padding: 0;
+    width: 4px;
+    height: 20px;
+    background: #000;
+    transform: rotate(45deg);
+}
+.css-cancel:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -8px;
+    width: 20px;
+    height: 4px;
+    margin-top: -2px;
+    background: #000;
+}
 
 .slider div.detail{
-  width:385px;
-  padding-right: 150px;
-  padding-left: 27px;
-  padding-top: 87px;
+  padding-right: 20vw;
+  padding-left: 3.6vw;
+  padding-top: 11.7vw;
 }
 .slider div.detail.hidden{
     visibility: hidden;
@@ -16,9 +46,10 @@ img{
     height: 0px;
 }
 .slider div.detail.description{
-  padding-left: 60px;
-  padding-right: 60px;
-  width: 385px;
+  padding-left: 8.1vw;
+  padding-right: 8.1vw;
+  padding-bottom: 5.4vw;
+  padding-top:5.4vw;
   order:3;
   -webkit-box-ordinal-group: 3;
   -moz-box-ordinal-group: 3;
@@ -38,9 +69,9 @@ img{
   display:table-header-group;
 }
 .slider div.detail_title{
-  padding-left: 60px;
-  width:400px;
-  padding-right: 70px
+  padding-left: 6.7vw;
+  padding-right: 5.7vw;
+  padding-bottom: 4.7vw;
   order:1;
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
@@ -83,7 +114,7 @@ img{
 }
 .desc_title{
   font-family: SpoqaHanSans;
-  font-size: 30px;
+  font-size: 4.6vw;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;

@@ -6,6 +6,37 @@ div.detail_image{
   width: 795px;
   height: 754px;
 }
+#back{
+  margin:0;
+  padding:0;
+  transition: all .3s ease-out;
+  cursor:pointer;
+  width:50px;
+  height: 50px;
+  position:fixed;
+  right:0px;
+}
+.css-cancel {
+    display: inline-block;
+    position: relative;
+    margin: 0 40px 0 14px;
+    padding: 0;
+    width: 8px;
+    height: 40px;
+    background: #000;
+    transform: rotate(45deg);
+}
+.css-cancel:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    width: 40px;
+    height: 8px;
+    margin-top: -4px;
+    background: #000;
+}
 
 .slider div.detail{
   width:385px;
