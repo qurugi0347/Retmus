@@ -67,14 +67,18 @@
   text-align: left;
   color: #aaaaaa;
 }
-.slider .slider_card {
-  vertical-align: top;
+.slider div.slider_card {
+  background-color: #fafafa;
 }
 .slider .slider_map {
   background-color: #fafafa;
-  width: 408px;
-  height: 350px;
+  width: 816px;
+  height: 595px;
   padding: 0;
   margin: 0px;
   display: inline-block;
+}
+div.content{
+  padding-top:81px;
+  height:673px;
 }
